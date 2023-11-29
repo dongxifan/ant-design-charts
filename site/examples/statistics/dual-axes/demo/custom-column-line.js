@@ -33,8 +33,7 @@ const DemoDualAxes = () => {
           stroke: '#5AD8A6',
           lineWidth: 2,
         },
-        scale: { y: { independent: true } },
-        axis: { y: { position: 'right' } },
+        axis: { y: false },
         interaction: {
           tooltip: {
             crosshairs: false,
@@ -46,7 +45,7 @@ const DemoDualAxes = () => {
     annotations: [
       {
         type: 'text',
-        data: ['2019-05', 280],
+        data: ['2019-05', 300],
         style: {
           text: '2019-05, 发布新版本',
           dy: -30,

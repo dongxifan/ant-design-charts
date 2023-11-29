@@ -3,7 +3,6 @@ export {
   flow,
   isArray,
   isBoolean,
-  merge,
   omit,
   pick,
   isFunction,
@@ -23,6 +22,8 @@ export {
   isObject,
   uniqBy,
   isPlainObject,
+  reduce,
+  isNil,
 } from 'lodash-es';
 export { getCustomKeys } from './get-custom-keys';
 export { isCompositePlot } from './is-composite-plot';
